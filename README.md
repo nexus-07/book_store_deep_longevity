@@ -1,8 +1,7 @@
 Проект в вocker [контейнере](https://hub.docker.com/r/nexus07/book_store_deep_longeviry)
 запускать:
 `git clone git@github.com:nexus-07/book_store_deep_longevity.git`
-`docker pull nexus07/book_store_deep_longeviry:latest`
-`docker-compose run --rm web`
+`docker-compose up`
 
 Логин и пароль в админку
 admin / admin
