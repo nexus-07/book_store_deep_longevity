@@ -1,11 +1,14 @@
 Проект в вocker [контейнере](https://hub.docker.com/r/nexus07/book_store_deep_longeviry)
 запускать:
+
 `git clone git@github.com:nexus-07/book_store_deep_longevity.git`
+
 `docker-compose up`
 
 Логин и пароль в админку
 admin / admin
 Токен для доступа по API (так же он выводится в момент первого запуска контейнера):
+
 `Token f4f9b4af1f8357d21e27db19af3fa497cd0ac9a7`
 
 исходники на gitlab:
