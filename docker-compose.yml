@@ -13,7 +13,8 @@ services:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
   web:
-    build: .
+#    build: .
+    image: nexus07/book_store_deep_longeviry
 #    command: python manage.py runserver 0.0.0.0:8000
     command: >
       bash -c "python manage.py migrate
